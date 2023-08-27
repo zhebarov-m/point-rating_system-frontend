@@ -1,0 +1,20 @@
+.container {
+  width: 300px;
+  background-color: red;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.controlPanelButton {
+  color: #ffffff !important;
+  min-height: 48px;
+}
+
+.controlPanelIcon {
+  color: #ffffff !important;
+
+  min-width: 0px !important;
+  justify-content: center;
+}

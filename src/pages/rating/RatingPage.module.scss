@@ -1,0 +1,39 @@
+.isOpen {
+  width: 83%;
+  transition: "all .2s ease-in";
+}
+
+.isClose {
+  width: 83%;
+  transition: all 0.2s ease-in-out;
+}
+
+.dataTable {
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: end;
+  margin: 10px 5px 0 0;
+}
+
+.saveButton {
+}
+
+.infoCurrentGroup {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  margin-bottom: 10px;
+
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px 10px 10px;
+
+  span {
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
+

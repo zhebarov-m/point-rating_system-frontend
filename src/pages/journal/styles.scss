@@ -1,0 +1,34 @@
+.electronic-journal {
+    padding: 20px;
+  }
+  
+  .date-header {
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  .student-cell {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-right: 2px solid #ccc;
+  }
+  
+  .attendance-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .attendance-cell.present {
+    background-color: #6bbf44;
+  }
+  
+  .attendance-cell.absent {
+    background-color: #f6685e;
+  }
+  

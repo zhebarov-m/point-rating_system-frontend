@@ -1,0 +1,41 @@
+.root {
+  width: 400px;
+  color: #333333;
+  margin: 50px auto;
+}
+
+.controlPaper {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.flexUi {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.field {
+  margin-bottom: 20px !important;
+  font-size: 20px !important;
+  font-weight: 700;
+  color: red;
+}
+
+.title {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}
+
+.fullname {
+  display: flex;
+  gap: 10px;
+}
+
+.passwordFlex {
+  display: flex;
+  gap: 10px;
+}
+

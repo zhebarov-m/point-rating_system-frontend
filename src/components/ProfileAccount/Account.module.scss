@@ -1,0 +1,64 @@
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.settingsIcon {
+  animation: fadeOut 0.2s forwards;
+}
+
+@keyframes rotateSettings {
+    100% {
+      transform: rotate(0deg);
+    }
+    0% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotateSettings {
+    animation: rotateSettings 3s ease forwards;
+  }
+  
+
+@keyframes rotateAndShift {
+  0% {
+    transform: rotate(0deg);
+    position: relative;
+    left: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    position: relative;
+    left: 30px;
+  }
+}
+
+.avatarRotateShift {
+  animation: rotateAndShift 0.7s ease forwards;
+}
+
+@keyframes reverseRotateAndShift {
+  100% {
+    transform: rotate(0deg);
+    position: relative;
+    left: 0;
+  }
+  0% {
+    transform: rotate(360deg);
+    position: relative;
+    left: 30px;
+  }
+}
+
+.avatarReverseRotateShift {
+  animation: reverseRotateAndShift 0.7s ease forwards;
+}
+
+
